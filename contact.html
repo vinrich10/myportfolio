@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Monaghan Web Developer Contact</title>
+
+  <!-- Stylesheets -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Martel:wght@700&family=Merriweather:ital,wght@1,700&family=Montserrat&family=Noto+Sans+JP&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Vincent Richitelli</a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+  <header>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Sean Monaghan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+
             <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -33,44 +43,97 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+
           </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </header>
 
 
-      <ul class="col-sm-6 list-group">
-        <li class="list-group-item list-group-item-action list-group-item-dark"> <a
-            href="https://github.com/Seanmonaghan"><i class="fab fa-github-square"></i> Github <i
-              class="fab fa-github-square"></i></a> </li>
-        <li class="list-group-item list-group-item-action list-group-item-secondary"><a href="/Resume 3_14_2021.pdf">
-            <i class="fas fa-file"></i> Resume <i class="fas fa-file"></i> </a></li>
-        <li class="list-group-item list-group-item-action list-group-item-success"><a
-            href="https://www.linkedin.com/in/sean-monaghan-8318666b/"> <i class="fab fa-linkedin"></i> LinkedIn <i
-              class="fab fa-linkedin"></i> </a></li>
-        <li class="list-group-item list-group-item-action list-group-item-info"><a
-            href="https://twitter.com/SeanMon83059815"> <i class="fab fa-twitter-square"></i> Twitter <i
-              class="fab fa-twitter-square"></i> </a></li>
-        <li class="list-group-item list-group-item-action list-group-item-primary"><a
-            href="https://www.facebook.com/seanmonaghann/"> <i class="fab fa-facebook-square"></i> Facebook <i
-              class="fab fa-facebook-square"></i> </a></li>
-        <li class="list-group-item list-group-item-action list-group-item-danger"><a
-            href="mailto:seanryanmonaghan@yahoo.com"> <i class="fas fa-envelope-square"></i> Email <i
-              class="fas fa-envelope-square"></i> </a></li>
 
-      </ul>
-    </div>
-            <div class="col-6">
-                <form action="">
-                    <input placeholder="Full Name" class="form-control">
+  <!-- Jumbotron / Contact Info -->
+  <main>
+    <header class="container-fluid">
+      <h1 class="heading">CONTACT ME</h1>
+    </header>
 
-                    <input style="margin-top: 20px;" placeholder="Email" class="form-control">
+    <!-- Who I am Card -->
+    
+      <div class="row">
+        <section class="col-sm-6 card mx-auto">
+          <img src="images/professional-photo.png" class="card-img-top" alt="photo of Sean Monaghan">
+          <div class="card-body">
+            <p class="card-text">
+              Sean Monaghan <br>(203) 640-9982<br><span id="email">SeanRyanMonaghan@yahoo.com</span>
+            </p>
+          </div>
+        </section>
 
-                    <label style="margin-top: 20px;">Message</label>
-                    <textarea class="form-control"></textarea>
-                    <button style="margin-top:20px" class="btn btn-primary">Send Message</button>
-                </form>
+        <ul class="col-sm-6 list-group">
+          <li class="list-group-item list-group-item-action list-group-item-dark"> <a
+              href="https://github.com/Seanmonaghan"><i class="fab fa-github-square"></i> Github <i
+                class="fab fa-github-square"></i></a> </li>
+          <li class="list-group-item list-group-item-action list-group-item-secondary"><a href="/Resume 3_14_2021.pdf">
+              <i class="fas fa-file"></i> Resume <i class="fas fa-file"></i> </a></li>
+          <li class="list-group-item list-group-item-action list-group-item-success"><a
+              href="https://www.linkedin.com/in/sean-monaghan-8318666b/"> <i class="fab fa-linkedin"></i> LinkedIn <i
+                class="fab fa-linkedin"></i> </a></li>
+          <li class="list-group-item list-group-item-action list-group-item-info"><a
+              href="https://twitter.com/SeanMon83059815"> <i class="fab fa-twitter-square"></i> Twitter <i
+                class="fab fa-twitter-square"></i> </a></li>
+          <li class="list-group-item list-group-item-action list-group-item-primary"><a
+              href="https://www.facebook.com/seanmonaghann/"> <i class="fab fa-facebook-square"></i> Facebook <i
+                class="fab fa-facebook-square"></i> </a></li>
+          <li class="list-group-item list-group-item-action list-group-item-danger"><a
+              href="mailto:seanryanmonaghan@yahoo.com"> <i class="fas fa-envelope-square"></i> Email <i
+                class="fas fa-envelope-square"></i> </a></li>
+
+        </ul>
+      </div>
+
+
+    <section id="home-newsletter">
+      <form class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="single">
+              <form action="confirmation.html">
+                <h2>Subscribe to my Newsletter</h2>
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="Enter your email">
+                  <span class="input-group-btn">
+                    <button class="btn btn-dark" type="submit" formaction="confirmation.html">Subscribe</button>
+                  </span>
+                </div>
+              </form>
 
             </div>
+          </div>
         </div>
+      </form>
+    </section>
+
+  </main>
+
+
+
+
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <h4>Sean Monaghan - Web Development </h4>
+      <h4 class="subtext"> <i class="fas fa-crow"> </i> © Copyright 2021 <i class="fas fa-crow"></i> </h4>
+    </div>
+
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+
 </body>
+
 </html>
